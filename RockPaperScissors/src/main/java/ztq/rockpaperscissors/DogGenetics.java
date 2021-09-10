@@ -20,19 +20,22 @@ public class DogGenetics {
         String[] dict = new String[]{"Dragon", "St. Bernard", "Chihuahua", "Panda", "Lion", "Godzilla", "Crane", "Golden Retriever"};
         System.out.println(name + " is:");
         Set<String> used = new HashSet<>();
-        int total = 95;
-        int toFive = 0;
-        while (toFive < 5) {
-            int index = rd.nextInt(dict.length);
-            String breed = dict[index];
-            if (used.contains(breed)) continue;
-            used.add(breed);
-            toFive++;
-            int percentage = rd.nextInt(total);
-            total -= percentage;
-            total += 1; // in case the first breeds used up all 100, we add 1 each time
-            percentage += 1;
-            System.out.printf("%d%% %s \n", percentage, breed);
+        double[] percents = new double[5];
+        double sum = 0;
+        for (int i = 0; i < 5; i++) {
+            percents[i] = rd.nextFloat();
+            sum += percents[i];
+        }
+        for (int i = 0; i < 5; i++) {
+            String breed = "";
+            int index = 0;
+            while (breed == "") {
+                index = rd.nextInt(dict.length);
+                breed = dict[index];
+            }
+            dict[index] = ""; // whenever we fetch a breed from dict, set it to empty to avoid repeat fetch
+           
+            System.out.printf("%d%% %s \n", Math.round(percents[i] / sum * 100), breed);
         }
         System.out.println("Wow, that's QUIET the dog!");
     }

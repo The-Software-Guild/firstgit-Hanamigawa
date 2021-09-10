@@ -29,7 +29,8 @@ public class RockPaperScissors {
                 System.out.println("You can only play 1 - 10 rounds");
                 break;
             }
-            game(round);
+            
+            game(round); // enter the game
             
             System.out.println("Do you still want to play? y for yes, other answer for no");
             String again = scanner.nextLine();
@@ -53,7 +54,7 @@ public class RockPaperScissors {
             String input = scanner.nextLine();
             try {
                 int move = Integer.parseInt(input);
-                assert(move >= 1 && move <= 3);
+                if (move < 1 || move > 3) throw new IllegalArgumentException();
                 int computer = rd.nextInt(3) + 1;
                 System.out.printf("Your move is %s, and computer's move is %s.\n", dict[move], dict[computer]);
                 if (move == computer) {
