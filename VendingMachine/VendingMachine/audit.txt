@@ -21,3 +21,16 @@
 2021-09-23T12:53:24.904998 : Changes returned to customer: $0
 2021-09-23T12:56:14.022043100 : Vending Machine Started.
 2021-09-23T12:56:18.075601200 : Changes returned to customer: $0.00
+2021-09-23T13:56:52.703503600 : Vending Machine Started.
+2021-09-23T13:56:56.438979500 : Changes returned to customer: $0.00
+2021-09-23T16:01:09.847578 : Vending Machine Started.
+2021-09-23T16:01:16.714613500 : $4.00 addded. In total: $4.00
+2021-09-23T16:01:22.902142100 : Coca Cola sold for $3.25
+2021-09-23T16:01:22.904136300 : Changes returned to customer: $0.75
+2021-09-23T16:01:29.958167700 : $4.00 addded. In total: $4.00
+2021-09-23T16:01:36.045528100 : Coca Cola sold for $3.25
+2021-09-23T16:01:36.046561200 : Changes returned to customer: $0.75
+2021-09-23T16:02:05.067787600 : $4.00 addded. In total: $4.00
+2021-09-23T16:02:31.484659500 : Changes returned to customer: $4.00
+2021-09-23T16:04:13.471619800 : Vending Machine Started.
+2021-09-23T16:04:17.735863 : Changes returned to customer: $0.00

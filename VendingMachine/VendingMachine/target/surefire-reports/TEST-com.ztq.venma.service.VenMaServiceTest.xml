@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ztq.venma.service.VenMaServiceTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ztq.venma.service.VenMaServiceTest" time="0.039" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\zwhet\m3\VendingMachine\VendingMachine\target\test-classes;C:\Users\zwhet\m3\VendingMachine\VendingMachine\target\classes;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\zwhet\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine\target\test-classes;C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine\target\classes;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\zwhet\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,9 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\zwhet\AppData\Local\Temp\surefire6233829410897069164\surefirebooter1825147534456159866.jar C:\Users\zwhet\AppData\Local\Temp\surefire6233829410897069164 2021-09-23T12-47-41_746-jvmRun1 surefire7898678073998167893tmp surefire_018131124107848349015tmp"/>
+    <property name="sun.java.command" value="C:\Users\zwhet\AppData\Local\Temp\surefire17771382879857940559\surefirebooter17435151743922170791.jar C:\Users\zwhet\AppData\Local\Temp\surefire17771382879857940559 2021-09-23T16-04-07_663-jvmRun1 surefire5884857954643768774tmp surefire_015441658976353038850tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.ztq.venma.service.VenMaServiceTest#testGetChanges"/>
-    <property name="surefire.test.class.path" value="C:\Users\zwhet\m3\VendingMachine\VendingMachine\target\test-classes;C:\Users\zwhet\m3\VendingMachine\VendingMachine\target\classes;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\zwhet\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine\target\test-classes;C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine\target\classes;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\zwhet\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\zwhet\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\zwhet"/>
     <property name="user.language" value="en"/>
@@ -26,12 +25,12 @@
     <property name="java.version.date" value="2020-10-20"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\zwhet\m3\VendingMachine\VendingMachine"/>
+    <property name="basedir" value="C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\zwhet\AppData\Local\Temp\surefire6233829410897069164\surefirebooter1825147534456159866.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zwhet\AppData\Local\Temp\surefire17771382879857940559\surefirebooter17435151743922170791.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -46,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\zwhet\AppData\Local\Temp\"/>
     <property name="java.version" value="15.0.1"/>
-    <property name="user.dir" value="C:\Users\zwhet\m3\VendingMachine\VendingMachine"/>
+    <property name="user.dir" value="C:\Users\zwhet\m3\firstgit-Hanamigawa\VendingMachine\VendingMachine"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testGetChanges" classname="com.ztq.venma.service.VenMaServiceTest" time="0.031"/>
+  <testcase name="testGetChanges" classname="com.ztq.venma.service.VenMaServiceTest" time="0.033"/>
 </testsuite>

@@ -56,7 +56,6 @@ public class VenMaController {
         HashMap<Integer, Item> map = new HashMap<>();
         int i = 1;
         for (Item item : items.keySet()) {
-            if (items.get(item) == 0) continue;
             map.put(i++, item);
         }
         return map;

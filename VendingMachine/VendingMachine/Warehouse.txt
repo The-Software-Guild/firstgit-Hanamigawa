@@ -1,4 +1,4 @@
-Coca Cola::3.25::2
+Coca Cola::3.25::1
 Cheetos::2.09::4
 Lays::3.23::3
 Pepsi::2.5::9
